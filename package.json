@@ -1,0 +1,32 @@
+{
+  "name": "authorization-hmac256",
+  "version": "1.0.0",
+  "description": "Amazon style authorization using signing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnngrm/authorization-hmac256.git"
+  },
+  "keywords": [
+    "authorization",
+    "amazon",
+    "hmac",
+    "sha256"
+  ],
+  "author": "jingram@classy.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnngrm/authorization-hmac256/issues"
+  },
+  "homepage": "https://github.com/jnngrm/authorization-hmac256#readme",
+  "dependencies": {
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
